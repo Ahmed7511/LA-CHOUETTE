@@ -36,7 +36,7 @@ a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    position: relative
+    position: relative;
 }
 
 .bloc .container {
@@ -371,7 +371,12 @@ em {
     background-color: #0c0c0c;
     margin: 30px;
 }
-
+.form-group{
+    margin: 10px;
+}
+.btn{
+    display: block;
+}
 @media (min-width:768px) {
     .site-navigation {
         position: absolute;
@@ -455,9 +460,8 @@ nav .caret {
     margin-bottom: 40px;
     color: black
 }
-
 .btn {
-    margin: 0 5px 5px 0
+    margin: 0 5px 5px 0;
 }
 
 .btn.pull-right {
@@ -472,7 +476,8 @@ nav .caret {
 }
 
 button {
-    outline: none!important
+    outline: none!important;
+    
 }
 
 .btn-rd {
@@ -518,7 +523,8 @@ button {
 
 .form-control {
     border-color: rgba(0, 0, 0, .1);
-    box-shadow: none
+    box-shadow: none;
+    
 }
 
 .scrollToTop {
@@ -527,7 +533,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out
 }
@@ -538,9 +544,11 @@ button {
 
 .showScrollTop {
     font-size: 14px;
-    opacity: 1
+    opacity: 1;
 }
-
+span{
+    color: #FFF;
+}
 a[data-lightbox] {
     position: relative;
     display: block;
@@ -671,7 +679,7 @@ a {
 }
 
 .container {
-    max-width: 1000px
+    width: auto;
 }
 
 .hero-bloc-text {
@@ -882,9 +890,11 @@ h4 {
 }
 
 @media (max-width:991px) {
-    .container {
-        width: 100%
+    .page.container, .container {
+        width: 100%;
+        padding: 10px;
     }
+    
     .b-parallax {
         background-attachment: scroll
     }
@@ -1010,7 +1020,7 @@ h4 {
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
-        padding: 40px 0
+        padding: 40px 0;
     }
     .bloc-sm,
     .bloc-md {
