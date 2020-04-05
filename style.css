@@ -45,9 +45,16 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px
+    width: 100%;
+    transform: scaleY(-50%);
 }
-
+.form-group{
+  max-width: 550px; 
+    margin: 10px auto;
+}
+#message , #message1{
+    width: 100%;
+}
 .bloc-md {
     padding: 50px
 }
@@ -365,18 +372,14 @@ em {
     position: relative;
     z-index: 2
 }
-
 .bg {
     opacity: 60%;
     background-color: #0c0c0c;
     margin: 30px;
 }
-.form-group{
-    margin: 10px;
-}
-.btn{
-    display: block;
-}
+
+
+
 @media (min-width:768px) {
     .site-navigation {
         position: absolute;
