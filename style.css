@@ -10,9 +10,8 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important
+    outline: none!important;
 }
-
 a:hover {
     text-decoration: none;
     cursor: pointer
@@ -45,8 +44,8 @@ a:hover {
 }
 
 .bloc-lg {
+    padding: 100px 50px;
     width: 100%;
-    transform: scaleY(-50%);
 }
 .form-group{
   max-width: 550px; 
@@ -78,7 +77,6 @@ a:hover {
     -o-background-size: auto!important;
     background-size: auto!important
 }
-
 .bg-repeat {
     background: repeat
 }
@@ -728,7 +726,9 @@ em {
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
-    font-weight: 700
+    font-weight: 700;
+    max-width: 200px;
+    margin: 10%;
 }
 
 .social {
@@ -812,7 +812,8 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: black!important
+    color: black!important;
+    width: 100%;
 }
 
 .btn-atomic-tangerine:hover {
@@ -858,6 +859,9 @@ h4 {
 }
 
 @media (max-width:1024px) {
+    .page {
+        padding: 0;
+    }
     .bloc {
         padding-left: 0px;
         padding-right: 0px
@@ -895,7 +899,6 @@ h4 {
 @media (max-width:991px) {
     .page.container, .container {
         width: 100%;
-        padding: 10px;
     }
     
     .b-parallax {
