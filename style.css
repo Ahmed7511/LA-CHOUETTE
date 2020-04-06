@@ -287,7 +287,10 @@ em {
     margin-right: 0;
     margin-left: 0
 }
-
+h4{
+    font-size: 2rem;
+    color: #fff;
+}
 .row.row-no-gutters>[class^="col-"],
 .row.row-no-gutters>[class*=" col-"] {
     padding-right: 0;
