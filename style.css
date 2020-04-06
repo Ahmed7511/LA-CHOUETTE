@@ -40,7 +40,9 @@ a:hover {
 
 .bloc .container {
     padding-left: 0;
-    padding-right: 0
+    padding-right: 0;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .bloc-lg {
@@ -52,7 +54,7 @@ a:hover {
     margin: 10px auto;
 }
 #message , #message1{
-    width: 100%;
+    width: 90%;
 }
 .bloc-md {
     padding: 50px
@@ -545,10 +547,7 @@ button {
 .showScrollTop {
     font-size: 14px;
     opacity: 1;
-}
-.fa-chevron-up:before {
-    content: " ";
-}   
+}  
 span{
     color: #fff;
 }
