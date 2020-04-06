@@ -111,7 +111,7 @@ em {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7)
+    color:rgba(255, 255, 255, .7);
 }
 
 .d-bloc button:hover {
@@ -1072,6 +1072,9 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px
+    }
+    .col-sm-4{
+        display: none;
     }
   
 }
