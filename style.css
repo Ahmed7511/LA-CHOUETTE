@@ -9,7 +9,8 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: 0!important
+    outline: 0!important;
+   margin :10px;
 }
 
 a:hover {
@@ -737,7 +738,7 @@ em {
 }
 
 .social {
-    max-width: 400px;
+    max-width: 300px;
     margin: auto auto auto auto;
     
 }
@@ -1155,8 +1156,6 @@ a:hover {
     max-width: 550px;
     margin: 10px auto;
     margin-bottom: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 
@@ -1842,7 +1841,7 @@ em {
 }
 
 .social {
-    max-width: 400px;
+    max-width: 300px;
     margin: auto auto auto auto
 }
 
